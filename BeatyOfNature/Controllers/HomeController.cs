@@ -19,5 +19,9 @@ namespace BeatyOfNature.Controllers
         {
             return View();
         }
+        public ActionResult Gallery()
+        {
+            return View();
+        }
     }
 }
