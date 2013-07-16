@@ -10,7 +10,7 @@ namespace BeatyOfNature.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Message = "Welcome to ASP.NET MVC!";
+            ViewBag.Message = "Welcome to Beauty of Nature";
 
             return View();
         }

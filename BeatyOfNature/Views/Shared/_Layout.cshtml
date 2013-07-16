@@ -8,10 +8,11 @@
      <script src="@Url.Content("~/Scripts/bootstrap.min.js")" type="text/javascript"></script>
 </head>
 <body>
+    
     <div class="page">
         <div id="header">
             <div id="title">
-                <h1>My MVC Application</h1>
+                <h1>Beauty Of Nature</h1>
             </div>
             <div id="logindisplay">
                 @Html.Partial("_LogOnPartial")
@@ -24,10 +25,20 @@
             </div>
         </div>
         <div id="main">
-            @RenderBody()
+             @RenderBody()
         </div>
+        <div class="border-div"></div>
+        <div class="row">
+            <div class="span12">
+                <h4 class="pull-right">Connect with US</h4>
+            </div>
+        </div>
+
+
         <div id="footer">
+            Copyright nature-beauty.apphb.com 2013
         </div>
     </div>
+
 </body>
 </html>
